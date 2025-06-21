@@ -1,6 +1,5 @@
 const { Bot } = require("grammy");
 
-// Вставь сюда свой токен, полученный от BotFather
 const bot = new Bot("7711023247:AAE6T6R2eV_xhyIteh1mNDeykOPdQRfqRwc");
 
 bot.command("start", (ctx) => {
